@@ -26,4 +26,12 @@
     return grayscale;
 }
 
++ (UIImage *)blur:(UIImage *)image radius:(double)radius {
+    cv::Mat mat;
+    UIImageToMat(image, mat);
+    cv::GaussianBlur(mat, mat, cv::Size(NULL, NULL), radius);
+    UIImage *blurredImage = MatToUIImage(mat);
+    return blurredImage;
+}
+
 @end
