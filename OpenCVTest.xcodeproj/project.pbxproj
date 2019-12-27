@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		63A00DCF23AC578100C34EED /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 63A00DCE23AC578100C34EED /* OpenCVWrapper.mm */; };
 		63A00DD323AC5AB000C34EED /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 63A00DD223AC5AB000C34EED /* README.md */; };
+		63AD595723B5B1ED003BA961 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AD595623B5B1ED003BA961 /* opencv2.framework */; };
 		63C5C39C23AC56B1008880E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C5C39B23AC56B1008880E2 /* AppDelegate.swift */; };
 		63C5C39E23AC56B1008880E2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C5C39D23AC56B1008880E2 /* SceneDelegate.swift */; };
 		63C5C3A023AC56B1008880E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63C5C39F23AC56B1008880E2 /* ContentView.swift */; };
@@ -42,6 +43,7 @@
 		63A00DCE23AC578100C34EED /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
 		63A00DD123AC581500C34EED /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		63A00DD223AC5AB000C34EED /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		63AD595623B5B1ED003BA961 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		63C5C39823AC56B0008880E2 /* OpenCVTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenCVTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C5C39B23AC56B1008880E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63C5C39D23AC56B1008880E2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63AD595723B5B1ED003BA961 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +100,7 @@
 		63C5C38F23AC56B0008880E2 = {
 			isa = PBXGroup;
 			children = (
+				63AD595623B5B1ED003BA961 /* opencv2.framework */,
 				63C5C39A23AC56B0008880E2 /* OpenCVTest */,
 				63C5C3B123AC56BB008880E2 /* OpenCVTestTests */,
 				63C5C3BC23AC56BB008880E2 /* OpenCVTestUITests */,
